@@ -21,3 +21,6 @@ fig_bar = px.bar(filtered_data, x="Month", y="Cases", title="Monthly Cases")
 
 st.plotly_chart(fig)
 st.plotly_chart(fig_bar)
+
+st.markdown("----")
+st.caption("Data displayed here is not accurate to real COVID-19 statistics. This is a student project.")
