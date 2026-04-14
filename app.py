@@ -5,7 +5,7 @@ import plotly.express as px
 # Title
 st.title("🦠 No Cap Corona Map")
 st.caption("COVID-19 Trends Across Indian States")
-# Dummy dataset (you can replace later with real data)
+
 data = data = pd.read_csv("data.csv")
 
 # Dropdown
